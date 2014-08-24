@@ -32,6 +32,7 @@ subFeatureNames = gsub("-","",subFeatureNames) # remove "-" or "()"
 subFeatureNames = gsub("\\()","", subFeatureNames)
 subFeatureNames = gsub("body","Body", subFeatureNames)
 subFeatureNames = gsub("gyro", "Gyro", subFeatureNames)
+subFeatureNames = gsub("gravity", "Gravity", subFeatureNames)
 subFeatureNames = gsub("mag", "Magnitude", subFeatureNames)
 subFeatureNames = gsub("jerk", "Jerk", subFeatureNames)
 subFeatureNames = gsub("acc", "Acceleration", subFeatureNames)
